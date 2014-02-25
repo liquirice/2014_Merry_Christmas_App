@@ -36,7 +36,8 @@ a {
 	font-weight:900;
 	font-family: Comic Sans, Comic Sans MS, cursive;
 	text-shadow: #FFF 1px 1px 15px,#FFF 1px 1px 15px,#FFF 1px 1px 15px,#FFF 1px 1px 15px,#FFF 1px 1px 15px,#FFF 1px 1px 15px,#FFF 1px 1px 15px,#FFF 1px 1px 15px;
-	margin: 500px 0px 0px 250px;
+
+	padding: 500px 0px 0px 250px;
 	position: absolute;
 }
 

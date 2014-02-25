@@ -27,7 +27,7 @@ else{
     $name = "Click Me";
 }
 
-// $date = date("YmdHms");
+// $date = date("Y-m-d H:i:s");
 // print_r($date);
 ?><!-- 
 親愛的 Kahori Hirose
@@ -71,7 +71,7 @@ by 田
         <meta charset="utf-8"> 
         
         <!-- Page Title -->
-        <title>Merry Christmas to Kahori Hirose</title> 
+        <title>Merry Christmas</title> 
         <!-- Favicon -->
         <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
         <link rel="stylesheet" type="text/css" href="css/index.css">
@@ -95,7 +95,7 @@ by 田
                                 <canvas id="canvas_days" width="188" height="188">
                                 </canvas>
                                 <div class="text">
-                                    <p class="val">46</p>
+                                    <p class="val"></p>
                                     <p class="type_days">Days</p>
                                 </div>
                             </div>
@@ -108,7 +108,7 @@ by 田
                                 <canvas id="canvas_hours" width="188" height="188">
                                 </canvas>
                                 <div class="text">
-                                    <p class="val">17</p>
+                                    <p class="val"></p>
                                     <p class="type_hours">Hours</p>
                                 </div>
                             </div>
@@ -121,7 +121,7 @@ by 田
                                 <canvas id="canvas_minutes" width="188" height="188">
                                 </canvas>
                                 <div class="text">
-                                    <p class="val">33</p>
+                                    <p class="val"></p>
                                     <p class="type_minutes">Minutes</p>
                                 </div>
                             </div>
@@ -134,7 +134,7 @@ by 田
                                 <canvas id="canvas_seconds" width="188" height="188">
                                 </canvas>
                                 <div class="text">
-                                    <p class="val">42</p>
+                                    <p class="val"></p>
                                     <p class="type_seconds">Seconds</p>
                                 </div>
                             </div>
@@ -163,7 +163,7 @@ by 田
         <div class="footer">
             <div class="container" style="position:absolute;">
                 <audio id="player"  autoplay>
-                  <!-- <source src="audio/Edward Scissorhands-Ice Dance.mp3" type="audio/mpeg"> -->
+                  <source src="audio/Edward Scissorhands-Ice Dance.mp3" type="audio/mpeg">
                 </audio>
                
             </div>

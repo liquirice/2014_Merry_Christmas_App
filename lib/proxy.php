@@ -17,28 +17,42 @@
  	
 
 	$date = date("YmdHms");
+	$current_time = date("Y-m-d H:i:s");
  	$to_whom = $_POST["name"];
 	$msg = $_POST["msg"];
 	$fb = $_POST["fb"];
  	$hash = strtoupper(hash( 'crc32b', $date.$to_whom ));
-
- 	// print_r($fb['id']);die();
+ 	// print_r($fb);
 
 	$sql = "INSERT INTO user_detail(
 				fb_id,
 				fb_name,
+				fb_username,
+				fb_gender,
 				fb_email,
+				fb_location_id,
+				fb_location_name,
+				fb_locale,
+				fb_timezone,
 				to_whom,
 				msg,
-				web_address
+				web_address,
+				time
 			) 
 			VALUES (
 				". $fb['id'] .",
 				'". $fb['name'] ."',
+				'". $fb['username'] ."',
+				'". $fb['gender'] ."',
 				'". $fb['email'] ."',
+				'". $fb['location_id'] ."',
+				'". $fb['location_name'] ."',
+				'". $fb['locale'] ."',
+				'". $fb['timezone'] ."',
 				'$to_whom',
 				'$msg',
-				'$hash'
+				'$hash',
+				'$current_time'
 				)";
 
  	// print_r($sql);
